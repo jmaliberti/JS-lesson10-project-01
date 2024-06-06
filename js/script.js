@@ -13,3 +13,6 @@ console.log(learning);
 learning.topic = "JavaScript";
 learning.learningGoals.splice(1, 1);
 console.log(learning);
+
+topicElement.innerText = `I’m learning ${learning.topic}`;
+topicElement.classList.remove("hide");
